@@ -18,8 +18,6 @@ merge_data <- function(directory) {
   test_data <- read.table(path)
   path <- paste("./", directory, "/train/X_train.txt", sep="")
   train_data <- read.table(path)
-  ## this is the merged data set of the training and test data
-  ## merged_data <- merge(train_data, test_data, all.x=TRUE)
   
   ## read the activity labels
   path <- paste("./", directory, "/activity_labels.txt", sep="")
