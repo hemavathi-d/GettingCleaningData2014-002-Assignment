@@ -1,7 +1,7 @@
 ## this file is assumed to be in the same folder as the data folder `UCI HAR Dataset`
 ## meaning to say
 ## ---
-##  |
+
 ##  |---run_analysis.R
 ##  |
 ##  |---UCI HAR Dataset/
